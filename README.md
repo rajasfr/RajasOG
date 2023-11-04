@@ -20,9 +20,6 @@ This Unity project contains a basic 2D game with a player character that can mov
 ## Contributing
 Feel free to contribute to this project by adding new features, fixing bugs, or improving the code. Create a pull request, and we'll review it.
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgements
 This project was created using Unity, a popular game development platform. Learn more about Unity at [Unity](https://unity.com/).
 
