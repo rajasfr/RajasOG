@@ -27,4 +27,3 @@ This project was created using Unity, a popular game development platform. Learn
 If you have any questions or need assistance, please feel free to [contact me]
 
 Have fun developing your 2D game in Unity!
-
