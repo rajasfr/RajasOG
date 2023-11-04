@@ -1,0 +1,26 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class PlayerController : MonoBehaviour
+{
+    public float speed = 5.0f;
+
+    void Update()
+    {
+        // Get input for player movement
+        float horizontalInput = Input.GetAxis("Horizontal");
+
+        // Calculate the new position of the player
+        Vector3 movement = new Vector3(horizontalInput, 0, 0) * speed * Time.deltaTime;
+
+        // Update the player's position
+        transform.Translate(movement);
+
+        // Clamp the player's position to the screen boundaries
+        float screenWidth = Camera.main.orthographicSize * Screen.width / Screen.height;
+        float playerWidth = transform.GetComponent<Renderer>().bounds.size.x / 2;
+        float xPos = Mathf.Clamp(transform.position.x, -screenWidth + playerWidth, screenWidth - playerWidth);
+        transform.position = new Vector3(xPos, transform.position.y, transform.position.z);
+    }
+}
