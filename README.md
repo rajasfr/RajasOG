@@ -27,7 +27,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 This project was created using Unity, a popular game development platform. Learn more about Unity at [Unity](https://unity.com/).
 
 ## Contact
-If you have any questions or need assistance, please feel free to [contact me](mailto:your@email.com).
+If you have any questions or need assistance, please feel free to [contact me]
 
 Have fun developing your 2D game in Unity!
 
